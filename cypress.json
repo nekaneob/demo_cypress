@@ -1,0 +1,15 @@
+{
+    "$schema": "http://on.cypress.io/cypress.schema.json",
+    "defaultCommandTimeout": 30000,
+    "baseUrl": "https://www.amazon.com/",
+    "video": true,
+    "screenshotOnRunFailure": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "overwrite": false,
+        "html": true,
+        "json": false,
+        "charts": true
+        
+    }
+}
