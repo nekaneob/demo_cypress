@@ -1,0 +1,21 @@
+{
+  "name": "demo_cypress",
+  "version": "1.0.0",
+  "description": "prueba cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open",
+    "cypress:report": "node config.js"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "nekaneob",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.2.0",
+    "mochawesome": "^6.2.1"
+  }
+}
